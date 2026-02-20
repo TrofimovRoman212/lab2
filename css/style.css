@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    *{margin: 0 ;
+    padding: 0; 
+}
+header { 
+    background: #8517ff ;
+    display:flex;
+    align-items: center;
+    font-family: "Lobster", sans-serif;
+    color:aliceblue;}
+.header_name{
+    color:aliceblue;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-size: 30px; }
+.header_logo{
+    
+    float:left;
+    margin-top: 10px;
+}
+.headertable{
+    padding: 39px;
+   margin-left:auto;
+}
+.headertable a{
+    font-size: 29px;
+    padding: 7px;
+    color:chartreuse;
+    text-decoration: none;
+}   
+.headertable ul {
+    
+    list-style:none;}
+.headertable ul li
+{display:inline;
+    }
+.Linkssize li{
+    padding: 10px;
+    font-size: 25px;
+    color:aquamarine;
+    
+
+}
+.Linkssize a{
+    color:aquamarine;
+     text-decoration: none;
+
+}
+.Linkssize a:hover{
+    color:rgb(146, 127, 255);
+    
+
+}
+.Linkssize img{
+    padding: 10px;
+    font-size: 25px;
+
+}
+main{
+    background: linear-gradient(#8517ff,#16e6ca);
+    width: 960px;
+    margin: 0 auto;
+margin-top: 100px;
+text-align: center;
+list-style-position: inside;
+}
+body{
+background: linear-gradient(#1682e6,#1102e4);
+font-family: "Montserrat", sans-serif;
+}
+.no-bullet {
+    list-style-type: none; /* Убираем маркировку */
+}
+.Form2{
+    color:rgb(255, 255, 255);
+font-size: 25px; margin-bottom: 20px;
+}
+/* label{
+  
+  display:block; 
+} */
+input[type="submit"]{
+width: 200px;
+height: 60px;
+font-size: 20px;
+border-radius: 16px;
+}
+.tablicaa{
+color: aliceblue;}
+table{
+    /*border-collapse: separate;*/
+    border-spacing: 5px ;
+font-size: 25px;
+width: 100%;
+}
+th, td{
+padding: 10px;}
+tr:nth-child(odd){
+    background-color: rgb(60, 210, 30);
+}
+tr:nth-child(even){
+    background-color: rgb(42, 165, 159);
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgb(42, 165, 159);
+    margin-top: 100px;
+padding-top: 30px;
+padding-bottom: 120px ;}
+.ui{  font-size: 30px;
+    padding:40px;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+  
+}
+
+
+

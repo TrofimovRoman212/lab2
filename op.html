@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <style>
+        /* Шапка сайта */
+        header {
+            display: flex; /* Флекс-контейнер */
+            justify-content:space-between; /* Логотип слева, меню справа */
+            align-items:end; /* Выравнивание по вертикали */
+            padding: 10px 20px; /* Немного отступов */
+            background-color: #4d2d70; /* Цвет фона */
+            color: white; /* Цвет текста */
+        }
+
+        /* Логотип */
+        .logo {
+            font-size: 24px; /* Размер шрифта */
+            font-weight: bold; /* Жирное начертание */
+        }
+
+        /* Меню */
+        .menu ul {
+            display: flex; /* Элементы меню в ряд */
+            list-style: none; /* Убираем точки */
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin-left: 20px; /* Расстояние между пунктами меню */
+        }
+
+        .menu ul li a {
+            color: white; /* Цвет текста в меню */
+            text-decoration: none; /* Убираем подчеркивание */
+            font-size: 16px; /* Размер шрифта */
+        }
+
+        .menu ul li a:hover {
+            text-decoration: underline; /* Подчеркивание при наведении */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Мой сайт</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
